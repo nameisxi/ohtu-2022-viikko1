@@ -54,7 +54,7 @@ class TestVarasto(unittest.TestCase):
     def test_str_tuloste(self):
         tuloste = self.varasto3.__str__()
 
-        assert tuloste == f"saldo = 1, vielä tilaa 0"
+        assert tuloste == f"saldo = 1, vielä tilaa 1"
 
     # def test_saldoa_enempaa_ei_voi_ottaa(self):
     #     pass
